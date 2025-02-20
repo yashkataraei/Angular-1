@@ -1,0 +1,23 @@
+.card h5 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.card {
+    background-color: rgb(195, 240, 255);
+    border-radius: 15px;
+}
+
+.container img {
+    max-height: auto;
+    width: 70px;
+    border-radius: 50% !important; 
+}
+
+.btn {
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

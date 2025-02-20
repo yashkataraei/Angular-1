@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { ContestComponent } from './home/contest/contest.component';
 import { AboutComponent } from './about/about.component';
 import { TermComponent } from './term/term.component';
+import { JoinContestComponent } from './join-contest/join-contest.component';
+import { JoinComponent } from './join-contest/join/join.component';
+import { RankingComponent } from './ranking/ranking.component';
+import { Contenst1Component } from './ranking/contenst1/contenst1.component';
 // import { Ripple, initMDB } from "mdb-ui-kit";
 
 @NgModule({
@@ -19,7 +23,11 @@ import { TermComponent } from './term/term.component';
     HomeComponent,
     ContestComponent,
     AboutComponent,
-    TermComponent
+    TermComponent,
+    JoinContestComponent,
+    JoinComponent,
+    RankingComponent,
+    Contenst1Component
   ],
   imports: [
     BrowserModule,
