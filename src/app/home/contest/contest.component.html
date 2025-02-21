@@ -5,21 +5,24 @@
             <img src="assets/icc.avif" alt="Image 2" class="img-fluid mx-auto d-block" style="width: 60px;">
         </div>
         <h5>Indian Premier League</h5>
-        <div class=" container d-flex flex-wrap justify-content-center">
-            <div *ngFor="let image of images" class="p-2">
+        <!-- <div class=" container d-flex flex-wrap justify-content-center" style="display: flex; gap:20px;"> -->
+            <div class="container d-flex flex-nowrap overflow-auto">
+            <div *ngFor="let image of images" class="p-2 mb-2" style="display: flex; gap: 10px;">
                 <img [src]="image" alt="Gallery Image" class="img-fluid rounded">
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-6 col-md-6">
-                    <button routerLink="/join" class="btn btn-success w-100">JOIN THE CONTEST</button>
-                </div>
-                <div class="col-6 col-md-6">
-                    <button class="btn btn-danger w-100">CONTEST PRIZES</button>
-                </div>
+       
+        <div class="container mt-3">
+            <div class="row g-1"> 
+              <div class="col-12 col-md-6">
+                <button routerLink="/join" class="btn btn-success w-100">JOIN THE CONTEST</button>
+              </div>
+              <div class="col-12 col-md-6">
+                <button class="btn btn-danger w-100">CONTEST PRIZES</button>
+              </div>
             </div>
-        </div>
+          </div>
+          
     </div>
 </div>
 
