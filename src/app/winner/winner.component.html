@@ -1,0 +1,32 @@
+<div class="leaderboard">
+    <h2>🏆 Top Ranking</h2>
+  
+    <div class="top-rankers">
+      <div *ngFor="let player of topPlayers" [ngClass]="{'first': player.ranking === 1, 'second': player.ranking === 2, 'third': player.ranking === 3}">
+        <img [src]="player.avatar" alt="Avatar">
+        <h3>{{ player.username }}</h3>
+        <div class="ranking-card">
+          <span class="rank">{{ player.ranking }}<sup *ngIf="player.ranking === 1">st</sup><sup *ngIf="player.ranking === 2">nd</sup><sup *ngIf="player.ranking === 3">rd</sup></span>
+          <p>{{ player.points }} Points</p>
+        </div>
+      </div>
+    </div>
+  
+    <table class="ranking-table">
+      <thead>
+        <tr>
+          <th>USERNAME</th>
+          <th>RANKING</th>
+          <th>POINTS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let player of topPlayers">
+          <td>{{ player.username }}</td>
+          <td>{{ player.ranking }}</td>
+          <td>{{ player.points }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

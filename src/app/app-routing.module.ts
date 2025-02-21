@@ -6,6 +6,7 @@ import { TermComponent } from './term/term.component';
 import { JoinContestComponent } from './join-contest/join-contest.component';
 import { RankingComponent } from './ranking/ranking.component';
 import { PredictionComponent } from './prediction/prediction.component';
+import { WinnerComponent } from './winner/winner.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path:'term&condition',component:TermComponent},
   {path:'join', component:JoinContestComponent},
   {path:'ranking',component:RankingComponent},
-  {path:'prediction',component:PredictionComponent}
+  {path:'prediction',component:PredictionComponent},
+  {path:'winner', component:WinnerComponent}
 ];
 
 

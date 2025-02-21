@@ -14,6 +14,7 @@ import { JoinComponent } from './join-contest/join/join.component';
 import { RankingComponent } from './ranking/ranking.component';
 import { Contenst1Component } from './ranking/contenst1/contenst1.component';
 import { PredictionComponent } from './prediction/prediction.component';
+import { WinnerComponent } from './winner/winner.component';
 // import { Ripple, initMDB } from "mdb-ui-kit";
 
 @NgModule({
@@ -29,7 +30,8 @@ import { PredictionComponent } from './prediction/prediction.component';
     JoinComponent,
     RankingComponent,
     Contenst1Component,
-    PredictionComponent
+    PredictionComponent,
+    WinnerComponent
   ],
   imports: [
     BrowserModule,
