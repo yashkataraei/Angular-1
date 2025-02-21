@@ -1,0 +1,23 @@
+.collapse button {
+    height: 60px;
+}
+
+.header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container {
+    height: 70vh;
+}
+
+.fas {
+    font-size: 20px;
+}
+
+.question {
+    font-weight: 600; 
+    font-size: 20px;
+}
